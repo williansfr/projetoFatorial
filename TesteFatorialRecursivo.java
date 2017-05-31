@@ -1,8 +1,8 @@
-public class TesteFatorial
+public class TesteFatorialRecursivo
 {
 	public static void main(String [] args)
 	{
- 		Fatorial fat = new Fatorial();
+ 		FatorialRecursivo fat = new FatorialRecursivo();
 		int fatorial = fat.calcularFatorial(5);
 		System.out.println(fatorial);
 	}
